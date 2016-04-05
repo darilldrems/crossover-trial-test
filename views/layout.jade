@@ -1,7 +1,16 @@
 doctype html
 html
   head
+    link(rel='stylesheet', href="/bower_components/bootstrap/dist/css/bootstrap.min.css")
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/bower_components/ng-dialog/css/ngDialog.css')
+    link(rel='stylesheet', href='/bower_components/ng-dialog/css/ngDialog-theme-default.min.css')
   body
     block content
+    script(src="/bower_components/angular/angular.min.js")
+    script(src="/bower_components/ng-dialog/js/ngDialog.min.js")
+    script(src="/javascripts/app.js")
+    script(src="/javascripts/directives/stat.js")
+    script(src="/javascripts/directives/inventory.js")
+    script(src="/javascripts/directives/current-auction.js")
