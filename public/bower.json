@@ -1,0 +1,21 @@
+{
+  "name": "crossover-trial-test",
+  "homepage": "https://github.com/darilldrems/crossover-trial-test",
+  "authors": [
+    "Ridwan Olalere <darilldrems@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#1.4.0-beta.1",
+    "bootstrap": "^3.3.6"
+  }
+}
